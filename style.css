@@ -1,0 +1,37 @@
+.navbar {
+
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    
+    /* background-image: url(https://www.hammondfarms.com/wp-content/uploads/2015/04/beach-sand.jpeg); */
+    background-color:burlywood;
+    font-family: 'Acme', sans-serif;
+}
+
+#picme{
+    border-radius: 8px;
+}
+
+.boutme {
+    background-color: bisque;
+}
+
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  
+
+
+
+
+
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Passion One', cursive; */
+/* font-family: 'Mitr', sans-serif; */
