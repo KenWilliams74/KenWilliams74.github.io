@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- reset css  -->
-
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <!-- bootstrap link  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- fonts link  -->
-    <link href="https://fonts.googleapis.com/css?family=Acme|Anton|Mitr|Passion+One|Ubuntu+Condensed&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Anton|Mitr|Passion+One|Ubuntu+Condensed&display=swap" rel="stylesheet">
+     <!-- my css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tag to resize pages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Ken's Website</title>
 
-    <!-- my css  -->
-    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
     <!-- nav bar  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Ken Williams</a>
@@ -39,24 +41,22 @@
             </ul>
         </div>
     </nav>
-</head>
-
-<body>
-    <div class="container">
-        <!--Section: Contact v.2-->
+    <br>
+    <div class="container boutme">
+        <!--Contact-->
 
         <section class="mb-4">
 
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
             <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">If you have any questions, please fill out the form below and I will get back to you as soon as I can.</p>
+            <p class="text-center w-responsive mx-auto mb-5">If you have any questions, please fill out the form below
+                and I will get back to you as soon as I can.</p>
 
             <div class="row">
 
                 <!--Grid column-->
-                <div class="col"
-                >
+                <div class="col">
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                         <!--Grid row-->
@@ -113,7 +113,8 @@
                     </form>
 
                     <div class="text-center text-md-left">
-                        <a class="btn btn-warning btn-lg" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <a class="btn btn-warning btn-lg"
+                            onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
                     <div class="status"></div>
                 </div>
@@ -122,4 +123,19 @@
 
         </section>
     </div>
+
+    <div class="footer">
+        <p>Created by Ken Williams 2020</p>
+    </div>
+
+    <!-- boostrap java links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
