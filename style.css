@@ -7,7 +7,7 @@ body {
     
     background-color:darkcyan;
     font-family: 'Anton', sans-serif;
-    height:100%;
+    
 }
 
 
@@ -33,10 +33,7 @@ body {
 }
 
 .footer {
-    position: fixed;
-    padding-bottom: -40px;
-    left: 0;
-    bottom: 0;
+    position: relative;
     width: 100%;
     background-color:rgb(2, 73, 73);
     color: white;
