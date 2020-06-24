@@ -19,9 +19,10 @@ body {
 }
 
 .boutme {
-    background-color: grey;
+    background-color: rgb(58, 58, 58);
     min-width:85%;
     text-align: center;
+    color: white;
 }
 
 
@@ -35,8 +36,10 @@ body {
 
 .footer {
     position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    background-color:grey;
+    background-color: rgb(58, 58, 58);
     color: white;
     text-align: center;
 }
