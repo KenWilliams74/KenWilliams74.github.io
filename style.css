@@ -19,7 +19,7 @@ body {
 }
 
 .boutme {
-    background-color: silver;
+    background-color: grey;
     min-width:85%;
     text-align: center;
 }
@@ -34,9 +34,9 @@ body {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     width: 100%;
-    background-color:#343a40;
+    background-color:grey;
     color: white;
     text-align: center;
 }
