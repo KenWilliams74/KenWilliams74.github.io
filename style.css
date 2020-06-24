@@ -5,7 +5,8 @@
 
 body {
     
-    background-color:darkcyan;
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/16/06/46/abstract-267046_1280.png);
+    background-size: cover ;
     font-family: 'Heebo', sans-serif;
     
 }
@@ -18,7 +19,7 @@ body {
 }
 
 .boutme {
-    background-color: bisque;
+    background-color: silver;
     min-width:85%;
     text-align: center;
 }
@@ -35,9 +36,13 @@ body {
 .footer {
     position: relative;
     width: 100%;
-    background-color:rgb(2, 73, 73);
+    background-color:#343a40;
     color: white;
     text-align: center;
 }
 
 
+.portfolio-img-card{
+    height: fit-content; 
+    max-height: 270px;
+}
