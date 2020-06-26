@@ -5,7 +5,7 @@
 
 body {
     
-    background-image: url(https://cdn.pixabay.com/photo/2017/04/03/15/51/waves-2198764_1280.png);
+    background-image: url(./img/background.jpg);
     background-size: cover ;
     font-family: 'Heebo', sans-serif;
     
@@ -48,4 +48,9 @@ body {
 .portfolio-img-card{
     height: fit-content; 
     max-height: 270px;
+}
+
+#jumbo-tron{
+    background: rgba(233, 236, 239, .4);
+    font-family: 'Mitr', sans-serif;
 }
