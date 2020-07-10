@@ -47,6 +47,7 @@ body {
 
 .portfolio-img-card{
     height: fit-content; 
+    width: inherit;
     max-height: 270px;
 }
 
